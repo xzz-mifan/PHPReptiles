@@ -1,10 +1,11 @@
 <?php
- namespace app\web\controller;
- use think\controller;
+
 /**
-* 
+* BY  :xuzhuangzhuang
+* TIME:2018-05-12
+* ADDRESS:henan-xuchang
 */
-class Reptile extends controller{
+class Reptile {
 	private $reptile;
 	public function __construct(){
 		$this->reptile=curl_multi_init();
